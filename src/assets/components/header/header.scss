@@ -1,0 +1,30 @@
+@import '../../commonStyles/variables.scss';
+@mixin flexVerticalCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    @include flexVerticalCenter;
+}
+
+.header__logo {
+
+    margin: 20px 2%;
+    width: auto;
+    height: 35px;
+}
+
+.nav__list {
+    @include flexVerticalCenter;
+    width: 40vw;
+    justify-content: space-around;
+}
+
+.nav__item {
+    list-style-type: none;
+    font-family: $font;
+    font-size: 14px;
+}
