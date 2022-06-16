@@ -1,6 +1,6 @@
 import "./assets/commonStyles/common.scss";
-import Header from "./assets/components/header/Header";
-import Main from "./assets/components/main/Main";
+import Header from "./assets/components/Header/Header";
+import Main from "./assets/components/Main/Main";
 
 function App() {
   return (

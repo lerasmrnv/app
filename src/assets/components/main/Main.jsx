@@ -1,12 +1,15 @@
 import React from 'react';
-import mainImage from "../../images/main"
+import BannerMain from '../BannerMain/BannerMain';
+import SaleContainer from '../SaleContainer/SaleContainer';
+import PreviewProduct from '../PreviewProduct/PreviewProduct';
+
 
 export default function Main() {
     return (
-        <main>
-            <h1>The new phones are <br /> here take a look.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est <br /> dui, aliquam, tempor. Faucibus morbi turpis.</p>
-            <button>Explore</button>
+        <main className='main'>
+            <BannerMain />
+            <SaleContainer title="Shop our latest offers and categories" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus mo" />
+            <PreviewProduct />
         </main>
     )
 }

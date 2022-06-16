@@ -1,0 +1,124 @@
+@import "../../commonStyles/variables.scss";
+@mixin marginTitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+$widthLW : 639px;
+
+.previewProduct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.previewProduct__container{
+    display: flex;
+    box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.container-laptop {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+
+    width: $widthLW;
+    height: 472px;
+}
+
+.container-laptop__img {
+    width: 500px;
+    padding-right: 15%
+}
+
+// Отступы справа текста для Laptop и Watch
+.container-laptop__text, 
+.container-laptop__title, 
+.container-watch__text,
+.container-watch__title {
+    padding-right: 5%
+}
+.container-laptop__title {
+    text-align: right;
+}
+
+// Общие шрифты для заголовков блоков
+.container-laptop__title, 
+.container-watch__title,
+.container-phone__title,
+.container-tablet__title {
+    @include marginTitle;
+
+    font-family: $fontTitle;
+    font-size: 32px;
+}
+// Общие шрифты для тектов блоков
+.container-laptop__text, 
+.container-watch__text,
+.container-phone__text,
+.container-tablet__text {
+    @include marginTitle;
+
+    font-family: $fontRegular;
+    font-size: 15px;
+}
+
+.container-watch {
+    flex-direction: row;
+    align-items: center;
+    width: $widthLW;
+}
+
+.container-phone, .container-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 312px;
+    height: 780px;
+}
+
+.container-phone__img {
+    height: 367px;
+    width: auto;
+}
+.container-phone {
+    margin: auto 3%;
+}
+
+// Настройка внутри контейнера Watch
+.container-watch__img {
+    width: 380px;
+}
+
+.container-watch__text,
+.container-watch__title {
+    padding-right: 15%
+}
+
+.container-watch__supporting {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: inherit;
+}
+
+.container-phone__text,
+.container-tablet__text,
+.container-phone__title,
+.container-tablet__title {
+    text-align: center;
+}
+
+.container-phone__img,
+.container-tablet__img {
+    margin: 5% auto;
+
+    width: 312px;
+}
+

@@ -1,0 +1,22 @@
+@import "../../commonStyles/variables.scss";
+
+.container-sale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.container-sale__title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-family: $fontTitle;
+    font-size: 42px;
+}
+
+.container-sale__text {
+    font-family: $fontRegular;
+    font-weight: 400;
+    font-size: 14px;
+}
