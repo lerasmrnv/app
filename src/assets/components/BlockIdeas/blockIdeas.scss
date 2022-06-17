@@ -1,0 +1,13 @@
+@import "../../commonStyles/variables.scss";
+
+.blockIdea {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.blockIdea__conteiner-text {
+    font-family: $fontRegular;
+    font-weight: 400;
+font-size: 24px;
+}

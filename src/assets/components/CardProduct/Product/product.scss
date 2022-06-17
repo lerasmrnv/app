@@ -1,0 +1,36 @@
+@import "../../../commonStyles/variables.scss";
+
+.cardProduct__item {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 3%;
+    width: 20%;
+}
+
+.cardProduct__item-title {
+    font-family: $fontTitle;
+    font-size: 22px;
+}
+.cardProduct__item-title,
+.cardProduct__item-text,
+.cardProduct__item-cost {
+    padding-top: 5%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    font-weight: 400;
+}
+
+.cardProduct__item-text, 
+.cardProduct__item-cost {
+    font-family: $fontRegular;
+}
+
+.cardProduct__item-text {
+    font-size: 14px;
+}
+
+.cardProduct__item-cost {
+    font-size: 18px;
+}
