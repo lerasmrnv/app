@@ -9,7 +9,7 @@ export default function CardProduct() {
         <section className='cardProduct'>
             {
                 products.map((product) =>
-                    <Product title={product.title} text={product.text} cost={product.cost} image={product.image} />)
+                    <Product key={product.id} title={product.title} text={product.text} cost={product.cost} image={product.image} />)
             }
         </section>
     )

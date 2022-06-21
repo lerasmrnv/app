@@ -6,8 +6,15 @@
 }
 
 .header {
-    justify-content: space-around;
+    position: fixed;
+    
     @include flexVerticalCenter;
+    justify-content: space-around;
+    width: 100vw;
+    height: 65px;
+    top: -5px;
+
+    background-color: $backgroundColorPage;
 }
 
 .header__logo {

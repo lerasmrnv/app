@@ -7,7 +7,7 @@ export default function BlockExplore() {
         <section className='cardExplore'>
             {
                 cardsExplore.map((card) =>
-                    <CardExplore title={card.title} text={card.text} image={card.image} />
+                    <CardExplore key={card.id} title={card.title} text={card.text} image={card.image} />
                 )
             }
         </section>

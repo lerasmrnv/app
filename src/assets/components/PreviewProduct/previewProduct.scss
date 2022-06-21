@@ -1,4 +1,5 @@
 @import "../../commonStyles/variables.scss";
+
 @mixin marginTitle {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -18,6 +19,7 @@ $widthLW : 639px;
     box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
+// Контейнер с ноутбуком
 .container-laptop {
     flex-direction: column;
     align-items: flex-end;
@@ -30,7 +32,57 @@ $widthLW : 639px;
 
 .container-laptop__img {
     width: 500px;
+    height: 377px;
     padding-right: 15%
+}
+
+// Контейнер с часами
+
+.container-watch {
+    flex-direction: row;
+    align-items: center;
+    width: $widthLW;
+}
+.container-watch__img {
+    width: 380px;
+    height: 270px;
+}
+
+.container-watch__supporting {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: inherit;
+}
+
+// Контейнер с телефоном
+.container-phone, .container-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 312px;
+    height: 780px;
+}
+
+.container-phone__img {
+    height: 356px;
+    width: 312px;
+}
+.container-phone {
+    margin: auto 3%;
+}
+
+// Контейнер с планшетом
+.container-phone__img,
+.container-tablet__img {
+    margin: 5% auto;
+}
+
+.container-tablet__img{
+    width: 312px;
+    height: 425px;
 }
 
 // Отступы справа текста для Laptop и Watch
@@ -54,6 +106,7 @@ $widthLW : 639px;
     font-family: $fontTitle;
     font-size: 32px;
 }
+
 // Общие шрифты для тектов блоков
 .container-laptop__text, 
 .container-watch__text,
@@ -63,60 +116,5 @@ $widthLW : 639px;
 
     font-family: $fontRegular;
     font-size: 15px;
-}
-
-.container-watch {
-    flex-direction: row;
-    align-items: center;
-    width: $widthLW;
-}
-
-.container-phone, .container-tablet {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    width: 312px;
-    height: 780px;
-}
-
-.container-phone__img {
-    height: 367px;
-    width: auto;
-}
-.container-phone {
-    margin: auto 3%;
-}
-
-// Настройка внутри контейнера Watch
-.container-watch__img {
-    width: 380px;
-}
-
-.container-watch__text,
-.container-watch__title {
-    padding-right: 15%
-}
-
-.container-watch__supporting {
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    width: inherit;
-}
-
-.container-phone__text,
-.container-tablet__text,
-.container-phone__title,
-.container-tablet__title {
-    text-align: center;
-}
-
-.container-phone__img,
-.container-tablet__img {
-    margin: 5% auto;
-
-    width: 312px;
 }
 
