@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.c14bb973.css",
+    "main.js": "/app/static/js/main.704d6b45.js",
+    "static/js/787.c1112931.chunk.js": "/app/static/js/787.c1112931.chunk.js",
+    "static/media/main_img2x.png": "/app/static/media/main_img2x.bab7d5004e0d671c8c58.png",
+    "static/media/laptops.png": "/app/static/media/laptops.f3145bda7d2680afd2d2.png",
+    "static/media/blockIdeas.png": "/app/static/media/blockIdeas.7f922610dc054ced5e6d.png",
+    "static/media/phones.png": "/app/static/media/phones.6da67c405cefc84eed72.png",
+    "static/media/tablet.png": "/app/static/media/tablet.d86d40551b3295ff05b1.png",
+    "static/media/watch.png": "/app/static/media/watch.c496734ea6598d564f34.png",
+    "index.html": "/app/index.html",
+    "main.c14bb973.css.map": "/app/static/css/main.c14bb973.css.map",
+    "main.704d6b45.js.map": "/app/static/js/main.704d6b45.js.map",
+    "787.c1112931.chunk.js.map": "/app/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c14bb973.css",
+    "static/js/main.704d6b45.js"
+  ]
+}
